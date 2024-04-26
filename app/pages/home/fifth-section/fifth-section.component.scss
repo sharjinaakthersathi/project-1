@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+grid-template-columns: 15% 15% 15% 15% 15% 15%;
+
+width: Fixed (1,437px)px;
+height: Hug (426px)px;
+height: 426px;
+top: 2812px;
+left: 2px;
+padding: 100px 159px 100px 159px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+@media screen and (max-width:599px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 50px 50px 50px;
+
+    }
+    
+}
